@@ -1,5 +1,5 @@
 const evenOrOdd = prompt("Pari o Dispari?");
-const userNumber = Number(prompt("Scegli un numero da 1 a 5"));
+const userNumber = parseInt(prompt("Scegli un numero da 1 a 5"));
 const computerNumber = Math.floor(Math.random() * 5) +1;
 const total = userNumber + computerNumber;
 
@@ -37,6 +37,6 @@ if (risultato == "pari" && evenOrOdd == "pari") {
 }else {
     result();
     console.log("You Lose!") 
-}
+};
 
 
